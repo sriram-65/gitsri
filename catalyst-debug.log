@@ -1,0 +1,21 @@
+[debug] [2024-10-01T09:35:44.972Z] : 
+[debug] [2024-10-01T09:35:45.096Z] : ----------------------------------------------------------------------
+[debug] [2024-10-01T09:35:45.099Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-10-01T09:35:45.100Z] : CLI Version:  1.17.6
+[debug] [2024-10-01T09:35:45.102Z] : Platform:     win32
+[debug] [2024-10-01T09:35:45.102Z] : Node Version: v20.9.0
+[debug] [2024-10-01T09:35:45.103Z] : Time:         Tue Oct 01 2024 15:05:45 GMT+0530 (India Standard Time)
+[debug] [2024-10-01T09:35:45.105Z] : ----------------------------------------------------------------------
+[debug] [2024-10-01T09:35:45.105Z] : 
+[debug] [2024-10-01T09:35:49.037Z] : > authorizing via signed-in user option
+[debug] [2024-10-01T09:35:49.037Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-10-01T09:35:49.078Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7815000000020001 
+
+[debug] [2024-10-01T09:35:49.870Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 01 Oct 2024 09:35:48 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=4d8b6dfe-df92-4aaa-8b8b-f288e7b36b59;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4d8b6dfe-df92-4aaa-8b8b-f288e7b36b59;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-10-01T09:35:49.886Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7815000000020001/environment 
+
+[debug] [2024-10-01T09:35:50.178Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 01 Oct 2024 09:35:48 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=6424063f-99de-4dfe-8822-5632fe35ab3b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6424063f-99de-4dfe-8822-5632fe35ab3b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
